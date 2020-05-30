@@ -16,11 +16,11 @@ h4 { font-size: 1.9em; margin-bottom: 20px;}
 
 .container {display: flex; width: 1100px; margin: 0 auto; padding-top: 40px; padding-bottom: 40px; flex-wrap: wrap;}
 
-#svg-container { background: url(../pics/android.svg) no-repeat; position: fixed; top: 0; left:0; right: 0; bottom: 0; margin: auto; width: 800px; height: 800px; z-index: -1; opacity: 0.3;}
+#svg-container { background: url(../pics/android.svg) no-repeat; position: fixed; top: 0; left:0; right: 0; bottom: 0; margin: auto; width: 800px; height: 800px; z-index: -10; opacity: 0.3;}
 
 nav ul, footer ul { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; margin: 0;}
 
-video {background-color: gray;}
+video {background-color: gray; z-index: -1;}
 
 #te-nav {display: flex; justify-content: center; width: 100%; height: 80px; background-color: cadetblue; position: fixed; top: 0;}
 #te-nav > ul {display: flex; width: 1100px; height: 100%; justify-content: space-between; align-items: center;}
