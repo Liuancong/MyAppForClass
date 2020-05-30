@@ -1,0 +1,34 @@
+body { margin: 0; border: 0; padding: 80px 0 60px 0; width: 100%;}
+
+p {font-size: 1.1em;}
+a { text-decoration: none; color: cadetblue;}
+.tag { text-decoration: none; color: #eeeeee;}
+.tag:hover { color: wheat; }
+.paper-link:hover {text-decoration: solid; }
+
+h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+h1 { font-size: 3em;  }
+h2 { font-size: 2.7em; }
+h3 { font-size: 2.3em; }
+h4 { font-size: 1.9em; margin-bottom: 20px;}
+
+.container {display: flex; width: 1100px; margin: 0 auto; padding-top: 40px; padding-bottom: 40px; flex-wrap: wrap;}
+
+#svg-container { background: url(../pics/android.svg) no-repeat; position: fixed; top: 0; left:0; right: 0; bottom: 0; margin: auto; width: 800px; height: 800px; z-index: -1; opacity: 0.3;}
+
+nav ul, footer ul { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; margin: 0;}
+
+video {background-color: gray;}
+
+#te-nav {display: flex; justify-content: center; width: 100%; height: 80px; background-color: cadetblue; position: fixed; top: 0;}
+#te-nav > ul {display: flex; width: 1100px; height: 100%; justify-content: space-between; align-items: center;}
+#te-nav > ul > li {color: white; font-size: 1.5em;}
+#te-footer {display: flex; justify-content: center; width: 100%; height: 60px; background-color: cadetblue; justify-content: center; align-items:center; position: fixed; bottom: 0;}
+#te-footer > div {color: white; font-size: 1.2em;}
+
+.home-main {display: flex; width: 100%; justify-content: center; flex-wrap: wrap;}
+#github-link {display: block; width: 250px; height: 100px; background-color: cadetblue; color: white; margin: 30px auto; text-align: center; line-height: 100px; font-size: 1.5em; border-radius: 25px; font-weight: bold}
+#github-link:hover {background-color: #79ceed; cursor: pointer;}
+.home-item {width: 100%;}
+.ti {text-align: center}
+.sub-ti {font-size: 1.5em;}

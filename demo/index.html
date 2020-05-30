@@ -1,0 +1,28 @@
+---
+layout: default
+title: TextExerciser
+ic: 2
+---
+
+		<div class="about">
+			<h3>Demos</h3>
+			<p>Here are some demos to show how TE generate text input based on hints on UI. </p>
+			<h4>Muate text input based on hints</h4>
+			<p>This demo shows how TE adaptively changes the text input of 'username' in xxx apk based on the hints. </p>
+			<p>TE first generates the input 'a' for it which doesn't satisfy the length constraint, i.e. 'Your username must be at least four characters'. Then a proper length input, 'a.G=Z', is given, however it still illformat which leads to dynamic hint, i.e. 'Username must contain only letter, numbers or dashes', shown on screen. Last TE changes input to '7bGaZ4', a valid text for this app, and passes this UI page.</p>
+			<video width="1000" height="800" controls>
+				<source src="../videos/te.mp4" type="video/mp4">
+			</video> 
+			<h4>Extract verify code</h4>
+			<p>Here is a demo that TE extracts verify code from SMS.  </p>
+			<p>In registration page of xxx apk, TE first generates text inputs for name, password and provides a valid phone number which is wrote to the config.json file before running for receiving verify code. Then the 'smsOberserver' app running in the real phone will read the SMS inbox and forward the message to TE server module for verify code extracting. Finally, the extracted verify code will be injected to the corresponding text box and the registration process is finished.</p>
+			<video width="1000" height="800" controls>
+				<source src="../videos/verif.mp4" type="video/mp4">
+			</video> 
+			<h4>Handle the coress view hint</h4>
+			<p>As hint and its corresponding text box are not always shown on the same UI page, this demo gives an example of how TE traces UI back to the target view which contains the corcorresponding text box, then changes the text input based on the hint in corss view. </p>
+			<p>Specifically, in Meet24 app, email address is sent into Page1. After filling out the information in Page2, a hint, 'This e-mail address is already use in Meet24', blocks the execution. Then TE navigates UI back to the page1, and generates a new email to advance the execution. </p>
+			<video width="1000" height="800" controls>
+				<source src="../videos/te.mp4" type="video/mp4">
+			</video> 
+		</div>
