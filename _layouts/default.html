@@ -17,6 +17,12 @@
   <li><a class="tag" href="/MyAppForClass/">TE Home</a></li>
   {% endif %}
 
+  {% if page.ic == 7 %}
+  <li><a class="tag" href="/MyAppForClass/overview" style="color: wheat;">Contact</a></li>
+  {% else %}
+  <li><a class="tag" href="/MyAppForClass/overview">overview</a></li>
+  {% endif %}
+
   {% if page.ic == 2 %}
   <li><a class="tag" href="/MyAppForClass/demo" style="color: wheat;">Demo</a></li>
   {% else %}
@@ -35,11 +41,6 @@
   <li><a class="tag" href="/MyAppForClass/pub">Publications</a></li>
   {% endif %}
 
-  {% if page.ic == 6 %}
-  <li><a class="tag" href="/MyAppForClass/contact" style="color: wheat;">Contact</a></li>
-  {% else %}
-  <li><a class="tag" href="/MyAppForClass/contact">Contact</a></li>
-  {% endif %}
 </ul>
     </nav>
 

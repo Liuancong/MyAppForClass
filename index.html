@@ -11,6 +11,11 @@ ic: 1
 			<a href="https://github.com/yyyyHe/TextExerciser" id="github-link">View on Github</a>
             <div  class="home-item">
 				{% for post in site.posts %}
+			    {% if post.pidd == 5 %}
+				<span>{{ post.excerpt | markdownify }}<span>
+				{% endif %}
+				{% endfor %}
+				{% for post in site.posts %}
 			    {% if post.pidd == 1 %}
 				<span>{{ post.excerpt | markdownify }}<span>
 				{% endif %}
@@ -20,16 +25,24 @@ ic: 1
 				<span>{{ post.excerpt | markdownify }}<span>
 				{% endif %}
 				{% endfor %}
-				{% for post in site.posts %}
-			    {% if post.pidd == 3 %}
-				<span>{{ post.excerpt | markdownify }}<span>
-				{% endif %}
-				{% endfor %}
-				{% for post in site.posts %}
-			    {% if post.pidd == 4 %}
-				<span>{{ post.excerpt | markdownify }}<span>
-				{% endif %}
-                {% endfor %}
 			</div>
 		</div>
+
+		<div class="cv">		
+			<h4>Yuyu He</h4>
+			<address>
+			<strong>Fudan University</strong><br>
+			<span class="obfuscate">email@email.com</span>
+			</address>
+			<h4>Lei Zhang</h4>
+			<address>
+			<strong>Fudan University</strong><br>
+			<span class="obfuscate">Personal link: <a href="https://zzzxxxlll.github.io">https://zzzxxxlll.github.io</a></span>
+			</address>
+			<h4>Zhemin Yang</h4>
+			<address>
+			<strong>Fudan University</strong><br>
+			<span class="obfuscate">Personal link: <a href="https://yangzhemin.github.io">https://yangzhemin.github.io</a></span>
+			</address>
+        </div>
 	
