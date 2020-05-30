@@ -6,6 +6,8 @@ a { text-decoration: none; color: cadetblue;}
 .tag:hover { color: wheat; }
 .paper-link:hover {text-decoration: solid; }
 
+img {height: 600px;}
+
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
