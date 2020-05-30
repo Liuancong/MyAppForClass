@@ -46,8 +46,6 @@ ic: 2
     var hls = new Hls();
     hls.loadSource('/MyAppForClass/videos/cro.m3u8');
     hls.attachMedia(video);
-    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-      video.play();
-  });
+    video.play();
  }
 </script>
