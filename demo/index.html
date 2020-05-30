@@ -46,6 +46,8 @@ ic: 2
     var hls = new Hls();
     hls.loadSource('https://liuancong.github.io/MyAppForClass/videos/cro.m3u8');
     hls.attachMedia(video);
-    video.play();
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
  }
 </script>
