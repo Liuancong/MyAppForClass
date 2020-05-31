@@ -7,6 +7,7 @@ a { text-decoration: none; color: cornflowerblue;}
 .paper-link:hover {text-decoration: solid; }
 
 img {height: 600px;}
+video, img {display: block; margin: 0 auto;}
 
 h1 { font-size: 3.3em;  }
 h2 { font-size: 3.0em; }
