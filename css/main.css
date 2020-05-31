@@ -1,6 +1,6 @@
 body { margin: 0; border: 0; padding: 80px 0 60px 0; width: 100%; font-family:"Times New Roman",Georgia,Serif;}
 
-p, li {font-size: 1.35em; line-height: 2.0em;}
+p, li, strong, .obfuscate {font-size: 1.35em; line-height: 2.0em;}
 a { text-decoration: none; color: cornflowerblue;}
 .tag { text-decoration: none; color: #eeeeee;}
 .tag:hover { color: wheat; }
@@ -34,3 +34,5 @@ video {background-color: gray; z-index: -1;}
 .home-item {width: 100%;}
 .ti {text-align: center}
 .sub-ti {font-size: 1.5em;}
+
+#contact-link {display: flex; width: 100%; justify-content: space-between; flex-wrap: wrap;}
