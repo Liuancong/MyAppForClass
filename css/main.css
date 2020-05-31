@@ -1,6 +1,6 @@
-body { margin: 0; border: 0; padding: 80px 0 60px 0; width: 100%;}
+body { margin: 0; border: 0; padding: 80px 0 60px 0; width: 100%; font-family:"Times New Roman",Georgia,Serif;}
 
-p, li {font-size: 1.1em; line-height: 1.7em;}
+p, li {font-size: 1.3em; line-height: 2.0em;}
 a { text-decoration: none; color: cornflowerblue;}
 .tag { text-decoration: none; color: #eeeeee;}
 .tag:hover { color: wheat; }
@@ -8,15 +8,14 @@ a { text-decoration: none; color: cornflowerblue;}
 
 img {height: 600px;}
 
-h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-h1 { font-size: 3em;  }
-h2 { font-size: 2.7em; }
-h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; margin-bottom: 20px;}
+h1 { font-size: 3.3em;  }
+h2 { font-size: 3.0em; }
+h3 { font-size: 2.6em; }
+h4 { font-size: 2.2em; margin-bottom: 20px;}
 
 .container {display: flex; width: 1100px; margin: 0 auto; padding-top: 40px; padding-bottom: 40px; flex-wrap: wrap;}
 
-#svg-container { background: url(../pics/android.svg) no-repeat; position: fixed; top: 0; left:0; right: 0; bottom: 0; margin: auto; width: 800px; height: 800px; z-index: -10; opacity: 0.3;}
+#svg-container { background: url(../pics/android.svg) no-repeat; position: fixed; top: 0; left:0; right: 0; bottom: 0; margin: auto; width: 800px; height: 800px; z-index: -10; opacity: 0.15;}
 
 nav ul, footer ul { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; margin: 0;}
 

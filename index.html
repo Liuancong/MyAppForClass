@@ -16,12 +16,12 @@ ic: 1
 				{% endif %}
 				{% endfor %}
 				{% for post in site.posts %}
-			    {% if post.pidd == 1 %}
+			    {% if post.pidd == 2 %}
 				<span>{{ post.excerpt | markdownify }}<span>
 				{% endif %}
 				{% endfor %}
 				{% for post in site.posts %}
-			    {% if post.pidd == 2 %}
+			    {% if post.pidd == 1 %}
 				<span>{{ post.excerpt | markdownify }}<span>
 				{% endif %}
 				{% endfor %}
