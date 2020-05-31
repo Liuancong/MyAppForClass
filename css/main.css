@@ -1,6 +1,6 @@
 body { margin: 0; border: 0; padding: 80px 0 60px 0; width: 100%; font-family:"Times New Roman",Georgia,Serif;}
 
-p, li, strong, .obfuscate {font-size: 1.6em; line-height: 2.0em;}
+p, li, strong, .obfuscate {font-size: 24px; line-height: 2.0em;}
 a { text-decoration: none; color: cornflowerblue;}
 .tag { text-decoration: none; color: #eeeeee;}
 .tag:hover { color: wheat; }
@@ -9,12 +9,13 @@ a { text-decoration: none; color: cornflowerblue;}
 img {height: 600px;}
 video, img {display: block; margin: 0 auto;}
 
-h1 { font-size: 3.0em;  }
+h1 { font-size: 3.2em;  }
 h2 { font-size: 2.8em; }
-h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; }
+h3 { font-size: 2.4em; }
+h4 { font-size: 2.0em; }
 
 h2, h3, h4 {margin-top: 15px; margin-bottom: 10px;}
+h2 {margin-bottom: 17px;}
 
 .container {display: flex; width: 1100px; margin: 0 auto; padding-top: 40px; padding-bottom: 40px; flex-wrap: wrap;}
 
@@ -37,5 +38,4 @@ video {background-color: gray; z-index: -1;}
 .ti {text-align: center}
 
 #contact-link {display: flex; width: 100%; justify-content: space-between; flex-wrap: wrap;}
-.contact-item > h4 {margin: 0;} 
 .cv {width: 100%;}
