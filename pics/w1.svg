@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- 由 Microsoft Visio, SVG Export 生成 w1.svg Page-8 -->
+<!-- 由 Microsoft Visio, SVG Export 生成 w.svg Page-8 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.34913in" height="3.10613in"
-		viewBox="0 0 313.138 223.641" xml:space="preserve" color-interpolation-filters="sRGB" class="st14">
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.15718in" height="3.10613in"
+		viewBox="0 0 299.317 223.641" xml:space="preserve" color-interpolation-filters="sRGB" class="st13">
 	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
 		<v:userDefs>
 			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Main process)"/>
@@ -25,8 +25,7 @@
 		.st10 {fill:#000000;font-family:Times New Roman;font-size:0.666664em}
 		.st11 {marker-end:url(#mrkr13-67);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.239976}
 		.st12 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.086948582161584}
-		.st13 {font-size:1em}
-		.st14 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st13 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -2371,8 +2370,8 @@
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="40.6535" cy="210.602" width="81.31" height="26.0787"/>
-			<rect x="0" y="197.562" width="81.3071" height="26.0787" class="st9"/>
+			<v:textRect cx="33.7431" cy="210.602" width="67.49" height="26.0787"/>
+			<rect x="0" y="197.562" width="67.4863" height="26.0787" class="st9"/>
 			<text x="4" y="213" class="st10" v:langID="2052"><v:paragraph/><v:tabList/>Phones/Emulators</text>		</g>
 		<g id="shape98-59" v:mID="98" v:groupContext="shape" transform="translate(18.12,-122.253)">
 			<title>矩形.188</title>
@@ -2390,14 +2389,23 @@
 		</g>
 		<g id="shape100-68" v:mID="100" v:groupContext="shape" transform="translate(89.8583,-142.583)">
 			<title>矩形.100</title>
-			<desc>TextExerciser Running on PC</desc>
+			<desc>Running on PC</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="40.6535" cy="210.602" width="81.31" height="26.0787"/>
 			<rect x="0" y="197.562" width="81.3071" height="26.0787" class="st9"/>
-			<text x="18.22" y="208.2" class="st10" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>TextExerciser<v:newlineChar/><v:paragraph/><tspan
-						x="4" dy="1.2em" class="st13" v:langID="2052">      </tspan><tspan class="st13" v:langID="2052">Running on PC</tspan></text>		</g>
+			<text x="15.98" y="213" class="st10" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Running on PC</text>		</g>
+		<g id="shape103-71" v:mID="103" v:groupContext="shape" transform="translate(89.8583,-145.417)">
+			<title>矩形.103</title>
+			<desc>TextExerciser</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.6535" cy="200.964" width="81.31" height="45.3543"/>
+			<rect x="0" y="178.287" width="81.3071" height="45.3543" class="st9"/>
+			<text x="18.22" y="203.36" class="st10" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>TextExerciser</text>		</g>
 	</g>
 </svg>
