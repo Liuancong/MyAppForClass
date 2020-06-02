@@ -26,14 +26,4 @@ ic: 2
 				<source src="../videos/ver.mp4" type="video/mp4">
 			</video>
 
-			{% for post in site.posts %}
-			{% if post.pidd == 8 %}
-			<span>{{ post.excerpt | markdownify }}<span>
-			{% endif %}
-			{% endfor %}
-
-			<video width="1000" height="800" controls>
-				<source src="../videos/cross.mp4" type="video/mp4">
-			</video>
-
 		</div>
