@@ -10,4 +10,9 @@ ic: 4
 		<span>{{ post.excerpt | markdownify }}<span>
 		{% endif %}
 		{% endfor %}	
+		{% for post in site.posts %}
+		{% if post.pidd == 11 %}
+		<span>{{ post.excerpt | markdownify }}<span>
+		{% endif %}
+		{% endfor %}	
 	</div>
